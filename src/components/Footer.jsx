@@ -9,8 +9,9 @@ const Footer = () => {
 
 <footer className="bg-[#2c2c54] body-font ">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+ 
   <Link to="/" >
-            <img src={logo} alt="Logo" className=" ml-[65px]  sm:ml-0  w-[120px] sm:w-[200px] h-[120px] sm:h-[200px]" /> {/* Adjust height based on your logo size */}
+            <img src={logo} alt="Logo" className="   m-auto  w-[120px] sm:w-[200px] h-[120px] sm:h-[200px]" /> {/* Adjust height based on your logo size */}
           </Link>
     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
