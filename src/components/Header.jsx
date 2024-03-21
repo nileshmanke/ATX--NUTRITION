@@ -44,7 +44,7 @@ const Header = () => {
 
     <div  className='flex gap-x-2 justify-center'>
         <div className=' text-sm sm:text-base font-semibold'><h1>Follow Us:</h1> </div>
-        <div className='text-white text-sm sm:text-base mt-1'><FaYoutube /> </div>
+        <div className='text-white text-base  '><FaYoutube /> </div>
     </div>
 
 </div>

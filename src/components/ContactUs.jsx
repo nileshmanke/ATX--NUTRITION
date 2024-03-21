@@ -12,7 +12,7 @@ const ContactUs = () => {
   <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30014.134120056933!2d75.34759915633943!3d19.89206811519506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba2b16aaaaaab%3A0xe0185a67395daec4!2sMk%20e-Tech%20Private%20Limited%20%7C%20Web%20Development%20Company%7C%20Website%20Design%20Services%7CB2B%20Digital%20Expert.!5e0!3m2!1sen!2sin!4v1710931878491!5m2!1sen!2sin"
       width="100%"
-      height="600"
+      height="800"
       style={{ border: '0' }}
       allowFullScreen=""
       loading="lazy"

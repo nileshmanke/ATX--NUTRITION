@@ -2,7 +2,7 @@ import React from 'react'
 
 const News = () => {
   return (
-    <div>
+    <div className='flex justify-center'>
 
       <div>
       <div className="card" style={{width: '18rem'}}>
