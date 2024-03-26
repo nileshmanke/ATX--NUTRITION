@@ -8,7 +8,7 @@ const ourPeople = () => {
   };
 
   return (
-    <div className='w-screen  flex justify-center'>
+    <div className='w-full  flex justify-center p-0 sm:p-5'>
     <div className=' w-full sm:w-5/12 '>
     <div id="accordion-collapse" data-accordion="collapse">
       {accordionData.map((item, index) => (
@@ -71,20 +71,38 @@ const ourPeople = () => {
 
 const accordionData = [
   {
-    question: 'What is ATX?',
+    question:"What is ATX Premium Mass Gainer Chocolate 1KG?",
     answer:
-      'Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.',
+      'ATX Premium Mass Gainer Chocolate 1KG is a high-calorie supplement formulated to support muscle growth and weight gain goals.',
   },
   {
-    question: 'Is there a Health Products?',
+    question: "ATX Premium Mass Gainer Chocolate 1KG is a high-calorie supplement formulated to support muscle growth and weight gain goals.",
     answer:
-      'Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.',
+      'Follow the serving size instructions provided on the product packaging or consult with a healthcare professional for personalized recommendations.',
   },
   {
-    question: 'What are the differences Mass Gainer and Protein?',
+    question:"How do I choose the right mass gainer from ATX NUTRITION for my goals?",
     answer:
-      'The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.',
+      'Consider factors such as your fitness goals (e.g., muscle building, weight gain), calorie needs, protein and carbohydrate content preferences, and any dietary restrictions when selecting a mass gainer product from ATX NUTRITION.',
   },
+
+  {
+    question:"Are ATX NUTRITION's mass gainer products suitable for beginners or advanced athletes?",
+    answer:
+      'ATX NUTRITION offers mass gainer options suitable for individuals at various fitness levels, from beginners to advanced athletes. The products are designed to support diverse fitness goals and training intensities.',
+  },
+
+  {
+    question:"What is the recommended usage of ATX NUTRITION's mass gainer supplements?",
+    answer:
+      'ATX NUTRITION offers mass gainer options suitable for individuals at various fitness levels, from beginners to advanced athletes. The products are designed to support diverse fitness goals and training intensities.',
+  },
+
+  {
+    question:"What types of proteins are used in ATX NUTRITION's protein powders?",
+    answer:
+      'ATX NUTRITION s protein powders may contain a blend of whey protein isolate, whey protein concentrate, casein protein, or plant-based proteins like pea protein, soy protein, or rice protein, depending on the product.',
+  }
 ];
 
 export default ourPeople;

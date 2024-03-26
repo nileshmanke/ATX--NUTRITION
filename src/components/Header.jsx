@@ -155,7 +155,7 @@ const Header = () => {
 </div>
 
 <div>
-    <Link to="/ourpeople">Our People</Link>
+    <Link to="/faqs">FAQ's</Link>
 </div>
 
 <div>
@@ -265,9 +265,9 @@ const Header = () => {
 
 <Link onClick={()=>{
     setmenu(false);
-}} to="/ourpeople" >
+}} to="/faqs" >
 <div className='ml-[40px]'>
-    Our People
+    FAQ's
 </div>
 </Link>
 

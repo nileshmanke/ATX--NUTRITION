@@ -32,7 +32,7 @@ const Main = () => {
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/news" element={<News />} />
-          <Route path="/ourpeople" element={<OurPeople />} />
+          <Route path="/faqs" element={<OurPeople />} />
           <Route path="/contactus" element={<ContactUs />} />
            </Routes>
         <Footer />
