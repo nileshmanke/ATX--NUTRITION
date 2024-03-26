@@ -7,7 +7,7 @@ const Products = () => {
 
 <div className='w-11/12 m-auto grid grid-cols-1 sm:grid-cols-3'>
 
-<div>
+<div className='m-auto'>
       <div className="card" style={{width: '18rem'}}>
   <img  src="https://sp.yimg.com/ib/th?id=OPAC.iEeT6OM1%2bV1OoQ474C474&o=5&pid=21.1&w=&h=" className="card-img-top p-5 " alt="..."/>
   <div className="card-body flex flex-col gap-y-4">
@@ -19,7 +19,7 @@ const Products = () => {
       </div>
 
       
-      <div>
+      <div className='m-auto'>
       <div className="card" style={{width: '18rem'}}>
   <img  src="https://sp.yimg.com/ib/th?id=OPAC.iEeT6OM1%2bV1OoQ474C474&o=5&pid=21.1&w=&h=" className="card-img-top p-5 " alt="..."/>
   <div className="card-body flex flex-col gap-y-4">
@@ -32,7 +32,7 @@ const Products = () => {
 
 
 
-      <div>
+      <div className='m-auto'>
       <div className="card" style={{width: '18rem'}}>
   <img  src="https://sp.yimg.com/ib/th?id=OPAC.iEeT6OM1%2bV1OoQ474C474&o=5&pid=21.1&w=&h=" className="card-img-top p-5 " alt="..."/>
   <div className="card-body flex flex-col gap-y-4">
@@ -46,7 +46,7 @@ const Products = () => {
 
 
       
-      <div>
+      <div className='m-auto'>
       <div className="card" style={{width: '18rem'}}>
   <img  src="https://sp.yimg.com/ib/th?id=OPAC.iEeT6OM1%2bV1OoQ474C474&o=5&pid=21.1&w=&h=" className="card-img-top p-5 " alt="..."/>
   <div className="card-body flex flex-col gap-y-4">
