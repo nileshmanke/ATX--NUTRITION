@@ -122,7 +122,7 @@ const Footer = () => {
           <h1>Copyright © 2024 | All rights reserved</h1>
         </div>
         <div className=''>
-          <a href='https://www.mketech.in/' target='_blank'>Designed & Developed by Mk e-Tech Pvt. Ltd</a>
+          <a href='https://www.mketech.in/' target='_blank'>Designed & Developed by Nilesh Manke</a>
         </div>
       </div>
 </footer>
